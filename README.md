@@ -14,23 +14,22 @@ A storage system (JSON & MySQL)
 An API for communication between front-end and storage
 
 alu-AirBnB_clone/
-│
-├─ console.py            # Entry point for the command interpreter
-├─ models/               # All classes (BaseModel, User, State, City, Place, etc.)
-│   ├─ base_model.py     # Base class for all models
-│   ├─ user.py           # User model
-│   ├─ state.py          # State model
-│   ├─ city.py           # City model
-│   ├─ place.py          # Place model
-│   ├─ amenity.py        # Amenity model
-│   ├─ review.py         # Review model
-│   └─ engine/           # Storage engines
-│       └─ file_storage.py
-│
-├─ tests/                # Unit tests for all classes and the console
-├─ web_static/           # Static web files (HTML, CSS, images)
-├─ AUTHORS               # Project contributors
-└─ README.md             # Project description
+├── console.py          # Entry point for the command interpreter
+├── models/             # All classes (BaseModel, User, State, City, Place, etc.)
+│   ├── base_model.py   # Base class for all models
+│   ├── user.py         # User model
+│   ├── state.py        # State model
+│   ├── city.py         # City model
+│   ├── place.py        # Place model
+│   ├── amenity.py      # Amenity model
+│   ├── review.py       # Review model
+│   └── engine/         
+│       └── file_storage.py  # Handles JSON storage (serialization & deserialization)
+├── tests/              # Unit tests for all classes and the console
+├── web_static/         # Static web files (HTML, CSS, images)
+├── AUTHORS             # Project contributors
+└── README.md           # Project description
+
 ⚡ Features
 
 Command-line Console
